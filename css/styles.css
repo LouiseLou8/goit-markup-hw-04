@@ -205,6 +205,8 @@ button:focus {
   margin-right: auto;
 }
 .benefits-icon {
+  display: flex;
+  margin: 24px auto;
 }
 
 .icon-wrap {
@@ -239,6 +241,9 @@ button:focus {
 /* /OUR TEAM SECTION*/
 .our-team-section {
   background-color: #f4f4fd;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section-title {
   margin-bottom: 72px;
@@ -251,6 +256,30 @@ button:focus {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-link {
+}
+.item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.item-icon:hover,
+.item-icon:focus {
+  background-color: #404bbf;
+}
+.team-icon {
+  fill: #f4f4fd;
 }
 
 .team-member-name {
@@ -270,6 +299,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 .team-descr {
   padding: 32px 0;
@@ -320,6 +350,10 @@ button:focus {
   padding: 100px 0;
   background: #2e2f42;
 }
+.footer-wrap {
+  display: flex;
+  gap: 120px;
+}
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
@@ -337,4 +371,34 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+.media-text {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 12px;
+  padding-top: 20px;
+}
+.social-media {
+}
+.item-icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  gap: 16px;
+}
+.item-icon-footer:focus,
+.item-icon-footer:hover {
+  background-color: #31d0aa;
+}
+.icon-list-footer {
+  display: flex;
+  gap: 16px;
 }

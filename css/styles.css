@@ -72,7 +72,6 @@ img {
   height: 4px;
   left: 0;
   bottom: -1px;
-  transform: translateX(-50%);
 }
 .page-header-title {
   border-bottom: 1px solid #e7e9fc;
@@ -282,6 +281,7 @@ button:focus {
 }
 .section-title {
   margin-bottom: 72px;
+  text-align: center;
 }
 .our-team-menu {
   display: flex;
@@ -373,10 +373,7 @@ button:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.overlay-link:hover .overlay,
-.overlay-link:focus .overlay {
-  transform: translateY(0);
-}
+
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -393,6 +390,10 @@ button:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio-list-item:hover .overlay,
+.portfolio-list-item:focus .overlay {
+  transform: translateY(0%);
+}
 .overlay-text {
   font-weight: 400;
   font-size: 16px;
@@ -400,8 +401,8 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background: #4d5ae5;
-  width: 360px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   padding: 40px 32px 164px;
 }
 
